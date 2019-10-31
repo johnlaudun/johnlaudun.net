@@ -1,8 +1,14 @@
-# John Laudun
+```
+Hello, world!
 
-Professor  
-University of Louisiana  
-Department of English  
+I am ...
+
+   ... John Laudun ...
+
+        ... Professor ...
+        ... Department of English ...
+        ... University of Louisiana.
+```
 
 My work in cultural analytics / folklore studies is focused on understanding the role that discourse plays in the nature and spread of online and offline texts. My principle interest is in narrative texts, in understanding how they are constructed, deployed, and received both because of the ways narrative activates our imaginations and the ways that narrative as one of many modes of discourse seems able to make words stick together as they travel across social networks. My focus on the somewhat larger horizon of discourse, as opposed to strictly narrative, is the outcome of years of close examination of actual vernacular texts as they passed between individuals both in face-to-face interaction and online.
 

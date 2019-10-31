@@ -61,11 +61,15 @@ div.relations {
 }
 
 
-div.sphinxsidebar a {
+div.sphinxsidebar li {
     font-weight: normal;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 1.5em;
+}
+
+div.sphinxsidebar a {
+    font-weight: normal;
 }
 
 div.sphinxsidebar a:hover {
@@ -103,6 +107,11 @@ div.sphinxsidebarwrapper h1.logo-name {
 div.sphinxsidebarwrapper p.blurb {
     margin-top: 0;
     font-style: normal;
+}
+
+p.logo {
+    font-size: 2em;
+    text-transform: capitalize;
 }
 
 div.sphinxsidebar h3,
