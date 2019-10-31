@@ -2,12 +2,15 @@ site_name: John Laudun
 
 nav:
     - Home: index.md
-    - About: about.md
     - Publications: publications.md
     - Conference Papers: papers.md
     - Research Statement: research.md
     - Teaching Statement: teaching.md
+    - About: about.md
 
 theme:
     name: null
     custom_dir: 'jillion/'
+
+markdown_extensions:
+    - smarty

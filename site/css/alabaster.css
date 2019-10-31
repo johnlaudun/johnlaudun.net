@@ -3,8 +3,8 @@
 /* -- page layout ----------------------------------------------------------- */
 
 body {
-    font-family: 'goudy old style', 'minion pro', 'bell mt', Georgia, 'Hiragino Mincho Pro', serif;
-    font-size: 17px;
+    font-family: 'Hoefler Text', Georgia, serif;
+    font-size: 1em;
     background-color: white;
     color: #000;
     margin: 0;
@@ -13,7 +13,7 @@ body {
 
 div.document {
     width: 940px;
-    margin: 30px auto 0 auto;
+    margin: 3em auto 0 auto;
 }
 
 div.documentwrapper {
@@ -62,18 +62,21 @@ div.relations {
 
 
 div.sphinxsidebar a {
-    color: #444;
+    font-weight: normal;
+    text-transform: uppercase;
     text-decoration: none;
-    border-bottom: 1px dotted #999;
+    line-height: 1.5em;
 }
 
 div.sphinxsidebar a:hover {
-    border-bottom: 1px solid #999;
+    color: #000;
+    border-bottom: 1px dotted #999;
 }
 
 div.sphinxsidebar {
-    font-size: 14px;
+    font-size: 0.85em;
     line-height: 1.5;
+    color: #000;
 }
 
 div.sphinxsidebarwrapper {
@@ -104,8 +107,7 @@ div.sphinxsidebarwrapper p.blurb {
 
 div.sphinxsidebar h3,
 div.sphinxsidebar h4 {
-    font-family: 'Garamond', 'Georgia', serif;
-    color: #444;
+    font-family: 'Hoefler Text', 'Georgia', serif;
     font-size: 24px;
     font-weight: normal;
     margin: 0 0 5px 0;
@@ -128,7 +130,6 @@ div.sphinxsidebar h3 a:hover {
 }
 
 div.sphinxsidebar p {
-    color: #555;
     margin: 10px 0;
 }
 
@@ -148,7 +149,7 @@ div.sphinxsidebar ul li.toctree-l2 > a {
 
 div.sphinxsidebar input {
     border: 1px solid #CCC;
-    font-family: 'goudy old style', 'minion pro', 'bell mt', Georgia, 'Hiragino Mincho Pro', serif;
+    font-family: 'Hoefler Text', Georgia, serif;
     font-size: 1em;
 }
 
@@ -166,13 +167,15 @@ div.sphinxsidebar hr {
 /* -- body styles ----------------------------------------------------------- */
 
 a {
-    color: #004B6B;
-    text-decoration: underline;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
-    color: #6D4100;
-    text-decoration: underline;
+    color: black;
+    border-bottom: 1px dotted;
+    background-color: yellow;
 }
 
 div.body h1,
@@ -181,7 +184,6 @@ div.body h3,
 div.body h4,
 div.body h5,
 div.body h6 {
-    font-family: 'Garamond', 'Georgia', serif;
     font-weight: normal;
     margin: 30px 0px 10px 0px;
     padding: 0;

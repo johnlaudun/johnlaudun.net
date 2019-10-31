@@ -1,4 +1,4 @@
-{% macro _toc_tree_inner(toc) -%}
+<!-- {% macro _toc_tree_inner(toc) -%}
   <ul>
     {% for toc_item in toc %}
       <li><a href="{{ toc_item.url }}">{{ toc_item.title }}</a></li>
@@ -12,9 +12,9 @@
   {% for toc_item in toc %}
     {{ _toc_tree_inner(toc_item.children) }}
   {% endfor %}
-{%- endmacro %}
+{%- endmacro %} -->
 
-{% macro nav_tree(nav) -%}
+<!-- {% macro nav_tree(nav) -%}
   <ul>
   {% for nav_item in nav %}
     {% if not nav_item.children %}
@@ -32,19 +32,19 @@
     {% endif %}
   {% endfor %}
   </ul>
-{%- endmacro %}
+{%- endmacro %} -->
 
-<h3 class = "sidebar" >Navigation</h3>
+<!-- <h3>Navigation</h3> -->
 
 <nav>
   {{ nav_tree(nav) }}
 
-  {% if theme.extra_nav_links %}
+  <!-- {% if theme.extra_nav_links %}
     <hr>
     <ul>
       {% for text, uri in theme.extra_nav_links.items() %}
         <li class="toctree-l1"><a href="{{ uri }}">{{ text }}</a></li>
       {% endfor %}
     </ul>
-  {% endif %}
+  {% endif %} -->
 </nav>

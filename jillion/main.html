@@ -38,50 +38,50 @@
 </head>
 <body>
 
-  <div class="document">
+<div class="document">
+
     <div class="documentwrapper">
       <div class="bodywrapper">
         <div class="body" role="main">
           {% block content %}
             {{ page.content }}
-            {% if page.is_homepage and theme.homepage_nav %}
-              {% include "inc/homepage_nav.html" %}
-            {% endif %}
+            <!-- {% if page.is_homepage and theme.homepage_nav %} -->
+            <!-- {% endif %} -->
           {% endblock %}
         </div>
       </div>
     </div>
+
     <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
       <div class="sphinxsidebarwrapper">
-        {% if page.is_homepage %}
-          {% for sidebar in theme.homepage_sidebars %}
-            {% include "sidebars/%s.html" % sidebar %}
-          {% endfor %}
-        {% else %}
-          {% for sidebar in theme.sidebars %}
-            {% include "sidebars/%s.html" % sidebar %}
-          {% endfor %}
-        {% endif %}
+          <p class="logo"><a href="{{nav.homepage.url|url}}">jl.net</a></p>
+
+          {% if nav|length>1 %}
+              <ul>
+              {% for nav_item in nav %}
+                  {% if nav_item.children %}
+                      <li>{{ nav_item.title }}
+                          <ul>
+                          {% for nav_item in nav_item.children %}
+                              <li class="{% if nav_item.active%}current{% endif %}">
+                                  <a href="{{ nav_item.url|url }}">{{ nav_item.title }}</a>
+                              </li>
+                          {% endfor %}
+                          </ul>
+                      </li>
+                  {% else %}
+                      <li class="{% if nav_item.active%}current{% endif %}">
+                          <a href="{{ nav_item.url|url }}">{{ nav_item.title }}</a>
+                      </li>
+                  {% endif %}
+              {% endfor %}
+              </ul>
+          {% endif %}
+
       </div>
     </div>
-    <div class="clearer"></div>
-  </div>
 
-  {% block footer %}
-    <div class="footer">
-      {% if config.copyright %}
-        &copy; {{ config.copyright }}
-      {% endif %}
-      {% if theme.show_powered_by|default(True) %}
-        {% if config.copyright %}|{% endif %}
-        Powered by <a href="http://www.mkdocs.org">mkdocs {{ mkdocs_version }}</a>
-      {% endif %}
-    </div>
-  {% endblock %}
+</div> <!--document -->
 
-  <!--
-  MkDocs version      : {{ mkdocs_version }}
-  Docs Build Date UTC : {{ build_date_utc }}
-  -->
 </body>
 </html>
