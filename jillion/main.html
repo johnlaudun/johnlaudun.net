@@ -8,12 +8,7 @@
     <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}{{ config.site_name }}</title>
 
     <link rel="shortcut icon" href="{{ base_url }}/img/favicon.ico">
-    <link rel="stylesheet" href="{{ base_url }}/css/alabaster.css" type="text/css">
-    <link rel="stylesheet" href="{{ base_url }}/css/alabaster-overrides.css" type="text/css">
-
-    {% for path in extra_css %}
-      <link href="{{ path }}" rel="stylesheet">
-    {% endfor %}
+    <link rel="stylesheet" href="{{ base_url }}/jln.css" type="text/css">
 
     {% for path in extra_javascript %}
       <script src="{{ path }}"></script>
@@ -35,25 +30,21 @@
 
     {% block extrahead %}{% endblock %}
   {% endblock %}
+  <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
+<div class="container">
+
 <div class="document">
-
-    <div class="documentwrapper">
-      <div class="bodywrapper">
-        <div class="body" role="main">
-          {% block content %}
+    <div class = "main">
             {{ page.content }}
-            <!-- {% if page.is_homepage and theme.homepage_nav %} -->
-            <!-- {% endif %} -->
-          {% endblock %}
-        </div>
-      </div>
-    </div>
+      </div> <!-- main -->
 
-    <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-      <div class="sphinxsidebarwrapper">
+
+
+    <div class="sidebar" role="navigation">
           <p class="logo"><a href="{{nav.homepage.url|url}}">John Laudun</a></p>
 
           {% if nav|length>1 %}
@@ -77,11 +68,10 @@
               {% endfor %}
               </ul>
           {% endif %}
+      </div> <!-- sidebar -->
 
-      </div>
-    </div>
-
-</div> <!--document -->
+</div> <!-- document   -->
+</div> <!-- wrapper -->
 
 </body>
 </html>
