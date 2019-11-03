@@ -1,42 +1,50 @@
-@import url("basic.css");
+/* CSS for johnlaudun.net    */
+/* Based on mkdocs-alabaster */
 
-/* -- page layout ----------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-body {
-    font-family: 'Alegreya', 'Hoefler Text', Georgia, serif;
-    font-size: 1em;
-    background-color: white;
-    color: #000;
-    margin: 0;
-    padding: 0;
+/* CONTENTS ================================ */
+
+/* Layout  */
+/* General */
+/* Sidebar */
+/* Main    */
+/* Media   */
+
+/* LAYOUT ================================== */
+
+.container {
+  /* display: flex; /* or inline-flex */
+  width: 850px;
+  margin: 1em auto 0 auto;
 }
 
 div.document {
-    width: 940px;
-    margin: 3em auto 0 auto;
+  float: center;
+  width: 100%;
 }
 
-div.documentwrapper {
-    float: left;
-    width: 100%;
+div.sidebar {
+  width: 200px;
+  /* background: cornflowerblue; */
+  padding: 0.5em;
+  float: left;
+  position: fixed;
+  border-right: 1px dotted;
+  text-align: right;
+  margin-left: 50px;
+  padding-top: 100px;
 }
 
-div.bodywrapper {
-    margin: 0 0 0 220px;
-}
-
-div.sphinxsidebar {
-    width: 220px;
-}
-
-hr {
-    border: 1px solid #B1B4B6;
-}
-
-div.body {
-    background-color: #ffffff;
-    color: #3E4349;
-    padding: 0 30px 0 30px;
+div.main {
+  width: 600px;
+  /* background: linen; */
+  padding: 1em;
+  float: right;
 }
 
 div.body > .section {
@@ -51,62 +59,121 @@ div.footer {
     text-align: right;
 }
 
-div.footer a {
-    color: #888;
+
+/* GENERAL ==================================*/
+
+body {
+    font-family: 'Alegreya', Georgia, serif;
+    /* 'Alegreya', 'Hoefler Text', */
+    font-size: 1em;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding: 0.5em 0;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+hr {
+    border: 1px solid #B1B4B6;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: black;
+    border-bottom: 1px dotted;
+}
+
+blockquote {
+    margin: 0 0 0 30px;
+    padding: 0;
+}
+
+ul, ol {
+    margin: 10px 0 10px 30px;
+    padding: 0;
+}
+
+pre {
+    background: lightblue;
+    padding: 1em 3em;
+    margin: 1em;
+    line-height: 1.3em;
+    tab-size: 4;
+}
+
+tt, code {
+    background-color: lightblue;
+}
+
+pre, tt, code {
+    font-family: 'Consolas', 'Menlo', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    font-size: 0.9em;
+}
+
+p.caption {
+    font-style: italic;
+    margin-top: -0.5em;
+    text-align: center;
+}
+
+img {
+    text-align: center;
 }
 
 
-div.relations {
-    display: none;
-}
+/* SIDEBAR ================================== */
 
-
-div.sphinxsidebar li {
+div.sidebar li {
     font-weight: normal;
     text-transform: uppercase;
     text-decoration: none;
+    list-style-type: none;
     line-height: 1.5em;
 }
 
-div.sphinxsidebar a {
+div.sidebar a {
     font-weight: normal;
+    color: black;
 }
 
-div.sphinxsidebar a:hover {
+/* div.sidebar a:hover {
     color: #000;
     border-bottom: 1px dotted #999;
-}
+} */
 
-div.sphinxsidebar {
+div.sidebar {
     font-size: 0.85em;
     line-height: 1.5;
-    color: #000;
 }
 
-div.sphinxsidebarwrapper {
-    padding: 18px 10px;
-}
 
-div.sphinxsidebarwrapper p.logo {
+div.sidebar p.logo {
     padding: 0;
     margin: -10px 0 0 0px;
-    text-align: center;
-}
-
-div.sphinxsidebarwrapper h1.logo {
-    margin-top: -10px;
-    text-align: center;
-    margin-bottom: 5px;
-    text-align: left;
-}
-
-div.sphinxsidebarwrapper h1.logo-name {
-    margin-top: 0px;
-}
-
-div.sphinxsidebarwrapper p.blurb {
-    margin-top: 0;
-    font-style: normal;
+    text-align: right;
+    font-weight: 500;
+    /* font-variant: small-caps; */
+    /* font-family: 'McLaren', cursive; */
 }
 
 p.logo {
@@ -114,55 +181,27 @@ p.logo {
     text-transform: capitalize;
 }
 
-div.sphinxsidebar h3,
-div.sphinxsidebar h4 {
-    font-family: 'Hoefler Text', 'Georgia', serif;
-    font-size: 24px;
-    font-weight: normal;
-    margin: 0 0 5px 0;
-    padding: 0;
-}
-
-div.sphinxsidebar h4 {
-    font-size: 20px;
-}
-
-div.sphinxsidebar h3 a {
-    color: #444;
-}
-
-div.sphinxsidebar p.logo a,
-div.sphinxsidebar h3 a,
-div.sphinxsidebar p.logo a:hover,
-div.sphinxsidebar h3 a:hover {
-    border: none;
-}
-
-div.sphinxsidebar p {
-    margin: 10px 0;
-}
-
-div.sphinxsidebar ul {
+div.sidebar ul {
     margin: 10px 0;
     padding: 0;
     color: #000;
 }
 
-div.sphinxsidebar ul li.toctree-l1 > a {
+div.sidebar ul li.toctree-l1 > a {
     font-size: 120%;
 }
 
-div.sphinxsidebar ul li.toctree-l2 > a {
+div.sidebar ul li.toctree-l2 > a {
     font-size: 110%;
 }
 
-div.sphinxsidebar input {
+div.sidebar input {
     border: 1px solid #CCC;
     font-family: 'Hoefler Text', Georgia, serif;
     font-size: 1em;
 }
 
-div.sphinxsidebar hr {
+div.sidebar hr {
     border: none;
     height: 1px;
     color: #AAA;
@@ -173,37 +212,8 @@ div.sphinxsidebar hr {
     width: 50%;
 }
 
-/* -- body styles ----------------------------------------------------------- */
+/* MAIN ================================== */
 
-a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    color: black;
-    border-bottom: 1px dotted;
-    background-color: yellow;
-}
-
-div.body h1,
-div.body h2,
-div.body h3,
-div.body h4,
-div.body h5,
-div.body h6 {
-    font-weight: normal;
-    margin: 30px 0px 10px 0px;
-    padding: 0;
-}
-
-div.body h1 { margin-top: 0; padding-top: 0; font-size: 240%; }
-div.body h2 { font-size: 180%; }
-div.body h3 { font-size: 150%; }
-div.body h4 { font-size: 130%; }
-div.body h5 { font-size: 100%; }
-div.body h6 { font-size: 100%; }
 
 a.headerlink {
     color: #DDD;
@@ -214,39 +224,6 @@ a.headerlink {
 a.headerlink:hover {
     color: #444;
     background: #EAEAEA;
-}
-
-div.body p, div.body dd, div.body li {
-    line-height: 1.4em;
-}
-
-div.admonition {
-    margin: 20px 0px;
-    padding: 10px 30px;
-    background-color: #FCC;
-    border: 1px solid #FAA;
-}
-
-div.admonition tt.xref, div.admonition a tt {
-    border-bottom: 1px solid #fafafa;
-}
-
-dd div.admonition {
-    margin-left: -60px;
-    padding-left: 60px;
-}
-
-div.admonition p.admonition-title {
-    font-family: 'Garamond', 'Georgia', serif;
-    font-weight: normal;
-    font-size: 24px;
-    margin: 0 0 10px 0;
-    padding: 0;
-    line-height: 1;
-}
-
-div.admonition p.last {
-    margin-bottom: 0;
 }
 
 div.highlight {
@@ -269,19 +246,6 @@ div.seealso {
 
 div.topic {
     background-color: #eee;
-}
-
-p.admonition-title {
-    display: inline;
-}
-
-p.admonition-title:after {
-    content: ":";
-}
-
-pre, tt, code {
-    font-family: 'Consolas', 'Menlo', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
-    font-size: 0.9em;
 }
 
 .hll {
@@ -370,39 +334,6 @@ dl dd {
     margin-left: 30px;
 }
 
-blockquote {
-    margin: 0 0 0 30px;
-    padding: 0;
-}
-
-ul, ol {
-    margin: 10px 0 10px 30px;
-    padding: 0;
-}
-
-pre {
-    background: #EEE;
-    padding: 7px 30px;
-    margin: 15px 0px;
-    line-height: 1.3em;
-}
-
-dl pre, blockquote pre, li pre {
-    margin-left: 0;
-    padding-left: 30px;
-}
-
-dl dl pre {
-    margin-left: -90px;
-    padding-left: 90px;
-}
-
-tt, code {
-    background-color: #ecf0f3;
-    color: #222;
-    /* padding: 1px 2px; */
-}
-
 tt.xref, code.xref, a tt {
     background-color: #FBFBFB;
     border-bottom: 1px solid white;
@@ -435,7 +366,7 @@ a:hover tt, a:hover code {
 
 @media screen and (max-width: 870px) {
 
-    div.sphinxsidebar {
+    div.sidebar {
     	display: none;
     }
 
@@ -562,8 +493,24 @@ a:hover tt, a:hover code {
     }
 }
 
+/* MEDIA ================================== */
 
-/* misc. */
+@media screen and (max-width: 600px) {
+  .document {
+    width: 100%;
+  }
+}
+
+@media print {
+  .sidebar {
+    display: none !important;
+  }
+  .main {
+      width: 100%;
+  }
+}
+
+/* MISCELLANEOUS ================================== */
 
 .revsys-inline {
     display: none!important;
