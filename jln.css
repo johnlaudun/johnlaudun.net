@@ -1,10 +1,12 @@
 /* CSS for johnlaudun.net    */
 /* Based on mkdocs-alabaster */
 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-weight: normal;
 }
 
 /* CONTENTS ================================ */
@@ -17,20 +19,28 @@
 
 /* LAYOUT ================================== */
 
-.container {
-  /* display: flex; /* or inline-flex */
-  width: 850px;
-  margin: 1em auto 0 auto;
-}
 
-div.document {
+#document {
   float: center;
-  width: 100%;
+  margin: 1em;
+  width: 900px;
 }
 
-div.sidebar {
-  width: 200px;
-  /* background: cornflowerblue; */
+#document:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#text {
+  width: 70%;
+  padding: 1em;
+  float: right;
+}
+
+#navigation {
+  width: 20%;
   padding: 0.5em;
   float: left;
   position: fixed;
@@ -38,33 +48,20 @@ div.sidebar {
   text-align: right;
   margin-left: 50px;
   padding-top: 100px;
+  padding-right: 1em;
 }
 
-div.main {
-  width: 600px;
-  /* background: linen; */
-  padding: 1em;
-  float: right;
-}
 
-div.body > .section {
-    text-align: left;
-}
-
-div.footer {
-    width: 940px;
-    margin: 20px auto 30px auto;
-    font-size: 14px;
-    color: #888;
-    text-align: right;
-}
+/* #footer {
+    width: 100%;
+    background: linen;
+} */
 
 
 /* GENERAL ==================================*/
 
 body {
-    font-family: 'Alegreya', Georgia, serif;
-    /* 'Alegreya', 'Hoefler Text', */
+    font-family: 'Alegreya', 'Hoefler Text', Georgia, serif;
     font-size: 1em;
     background-color: white;
     color: black;
@@ -83,8 +80,8 @@ h1 {
 }
 
 h2 {
-    font-size: 1em;
-    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
     padding-top: 1em;
 }
 
@@ -95,7 +92,7 @@ hr {
 a {
     color: black;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 a:hover {
@@ -143,15 +140,7 @@ img {
 
 /* SIDEBAR ================================== */
 
-div.sidebar li {
-    font-weight: normal;
-    text-transform: uppercase;
-    text-decoration: none;
-    list-style-type: none;
-    line-height: 1.5em;
-}
-
-div.sidebar a {
+#navigation a {
     font-weight: normal;
     color: black;
 }
@@ -161,13 +150,13 @@ div.sidebar a {
     border-bottom: 1px dotted #999;
 } */
 
-div.sidebar {
+.nav1 {
     font-size: 0.85em;
     line-height: 1.5;
 }
 
 
-div.sidebar p.logo {
+p.logo {
     padding: 0;
     margin: -10px 0 0 0px;
     text-align: right;
@@ -181,10 +170,18 @@ p.logo {
     text-transform: capitalize;
 }
 
-div.sidebar ul {
+.nav1 ul {
     margin: 10px 0;
     padding: 0;
     color: #000;
+}
+
+.nav1 li {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 1.5em;
 }
 
 div.sidebar ul li.toctree-l1 > a {
@@ -212,7 +209,7 @@ div.sidebar hr {
     width: 50%;
 }
 
-/* MAIN ================================== */
+/* TEXT ================================== */
 
 
 a.headerlink {
@@ -272,6 +269,25 @@ img.screenshot {
     box-shadow: 2px 2px 4px #eee;
 }
 
+table#copyright {
+    margin-top: 2em;
+    padding: 0.5em;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td.copyright {
+    padding: 0.5em;
+}
+
+p.copyright {
+    line-height: 0.95em;
+}
+
+#copyright a {
+    font-weight: normal;
+}
 table.docutils {
     border: 1px solid #888;
     -moz-box-shadow: 2px 2px 4px #eee;

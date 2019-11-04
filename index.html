@@ -20,15 +20,14 @@
 
     
   
-  <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,700&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
-<div class="container">
+<div id="document">
 
-<div class="document">
-    <div class = "main">
+    <div id = "text">
             <pre><code>Hello, world!
 
 I am ...
@@ -48,15 +47,23 @@ I am ...
 <p>Since 2004, I have maintained a <a href="http://johnlaudun.org">weblog</a>, basing it on an early version of WordPress. I have, over the years, tried other setups, but it&rsquo;s just been such a reliable tool/resource over the years &hellip; it just works. I have posted a lot of material on the blog over the years, but, to be honest, the technical material gets the most attention: e.g., the most popular post at this point is about how to <a href="http://johnlaudun.org/20170928-append-python-list-using-list-comprehension/">Append a Python List Using a List Comprehension</a>.</p>
 <p>I have been a faculty member at the University of Louisiana at Lafayette since 1999, and before that I received my PhD from Indiana University - Bloomington. I took time off during my work on the doctorate to be a management development consultant with IU Gradudate School of Business. My M.A. is from Syracuse University, where I focused on the nature of texts and their production and reception as well as learned to play the guitar. My B.A. in English and philosophy is from Louisiana State University, where I put myself through school either working construction jobs in the Louisiana summer sun or producing television commercials for a regional department store chain &ndash; I mis-type <em>interest</em> to this day because the Olivetti on which I worked always jammed at <em>est</em>.</p>
 <p>If you want to contact me, see the <a href="about/">about</a> page.</p>
-      </div> <!-- main -->
+
+            <table id = "copyright">
+                <tr class = "copyright">
+                    <td class = "copyright">
+                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a></td>
+                <td> <p class = "copyright"><em>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons <br />Attribution-ShareAlike 4.0 International License</a>.</em></p></td>
+            </tr>
+        </table>
+      </div> <!-- text -->
 
 
 
-    <div class="sidebar" role="navigation">
+    <div id="navigation">
           <p class="logo"><a href=".">John Laudun</a></p>
 
           
-              <ul>
+              <ul class = "nav1">
               
                   
                       <li class="current">
@@ -102,10 +109,10 @@ I am ...
               
               </ul>
           
-      </div> <!-- sidebar -->
+      </div> <!-- navigation -->
 
-</div> <!-- document   -->
-</div> <!-- wrapper -->
+
+</div>  <!-- document -->
 
 </body>
 </html>
