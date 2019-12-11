@@ -21,19 +21,15 @@
 
 
 #wrapper {
-  float: center;
+  /* float: center; */
   margin: 1em;
-  width: 900px;
+  width: 950px;
 }
 
-#document:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 #navigation {
-  width: 200px;
+  width: 250px;
   padding: 0.5em;
   float: left;
   position: fixed;
@@ -41,14 +37,14 @@
   text-align: right;
   margin-left: 50px;
   padding-top: 100px;
-  padding-right: 1em;
+  padding-right: 20px;
 }
 
 
 #text {
-  width: 650px;
+  width: 600px;
   padding: 1em;
-  float: left;
+  float: right;
 }
 
 
@@ -113,7 +109,7 @@ ul, ol {
 pre {
     background: lightblue;
     padding: 1em 3em;
-    margin: 1em;
+    /* margin: 1em; */
     line-height: 1.3em;
     tab-size: 4;
 }
