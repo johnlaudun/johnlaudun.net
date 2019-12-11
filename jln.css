@@ -20,7 +20,7 @@
 /* LAYOUT ================================== */
 
 
-#document {
+#wrapper {
   float: center;
   margin: 1em;
   width: 900px;
@@ -32,15 +32,8 @@
   clear: both;
 }
 
-
-#text {
-  width: 70%;
-  padding: 1em;
-  float: right;
-}
-
 #navigation {
-  width: 20%;
+  width: 200px;
   padding: 0.5em;
   float: left;
   position: fixed;
@@ -49,6 +42,13 @@
   margin-left: 50px;
   padding-top: 100px;
   padding-right: 1em;
+}
+
+
+#text {
+  width: 650px;
+  padding: 1em;
+  float: right;
 }
 
 
@@ -63,7 +63,7 @@
 body {
     font-family: 'Alegreya', 'Hoefler Text', Georgia, serif;
     font-size: 1em;
-    background-color: white;
+    background-color: ivory;
     color: black;
     margin: 0;
     padding: 0;
