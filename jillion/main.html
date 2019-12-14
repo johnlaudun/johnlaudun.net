@@ -30,29 +30,22 @@
 
     {% block extrahead %}{% endblock %}
   {% endblock %}
-  <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,700&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
-<div class="container">
+<div id="wrapper">
 
-<div class="document">
-    <div class = "main">
-            {{ page.content }}
-      </div> <!-- main -->
-
-
-
-    <div class="sidebar" role="navigation">
+    <div id="navigation">
           <p class="logo"><a href="{{nav.homepage.url|url}}">John Laudun</a></p>
 
           {% if nav|length>1 %}
-              <ul>
+              <ul class = "nav1">
               {% for nav_item in nav %}
                   {% if nav_item.children %}
-                      <li>{{ nav_item.title }}
-                          <ul>
+                      <li class = "nav1">{{ nav_item.title }}
+                          <ul class = "nav2">
                           {% for nav_item in nav_item.children %}
                               <li class="{% if nav_item.active%}current{% endif %}">
                                   <a href="{{ nav_item.url|url }}">{{ nav_item.title }}</a>
@@ -68,10 +61,25 @@
               {% endfor %}
               </ul>
           {% endif %}
-      </div> <!-- sidebar -->
+      </div> <!-- navigation -->
 
-</div> <!-- document   -->
-</div> <!-- wrapper -->
+
+    <div id = "text">
+            {{ page.content }}
+
+            <table id = "copyright">
+                <tr class = "copyright">
+                    <td class = "copyright">
+                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a></td>
+                <td> <p class = "copyright"><em>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons <br />Attribution-ShareAlike 4.0 International License</a>.</em></p></td>
+            </tr>
+        </table>
+      </div> <!-- text -->
+
+
+
+
+</div>  <!-- document -->
 
 </body>
 </html>

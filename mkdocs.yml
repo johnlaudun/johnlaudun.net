@@ -2,8 +2,7 @@ site_name: John Laudun
 
 nav:
     - Home: index.md
-    - Publications: publications.md
-    - Conference Papers: papers.md
+    - Vita: vita.md
     - Research Statement: research.md
     - Teaching Statement: teaching.md
     - Diversity Statement: diversity.md
