@@ -1,4 +1,6 @@
-# Vita
+---
+title: Vita
+---
 
 John Laudun  
 Department of English  
@@ -77,7 +79,7 @@ Walton, Shana and John Laudun. 2003. Co-PI. Lessons in Folklife for English Lang
 Laudun, John. 2016. _The Amazing Crawfish Boat_. In the "Folklore Series in a Multicultural World" series (sponsored by the Andrew Mellon Foundation). University Press of Mississippi. [PDF of first three chapters](./pdfs/Laudun-2016-first_3_chapters.pdf).
 
 
-### Essays
+### Articles & Chapters
 
 Laudun, John. [2021]. Abandoned Trucks in the American Imaginary. In _Weatherlore_. Ed. Shelley Ingram and Willow Mullins. (Accepted.)
 
@@ -99,7 +101,7 @@ Laudun, John. 2018. Intellectual Property. In _The Routledge Companion to Fairy-
 
 Laudun, John and Jonathan Goodwin. 2016. Computing Folklore Studies: Mapping over a Century of Scholarly Production through Topics. _Cultural Heritage_ 5. Translators (to Chinese): Li Yang  and Qiao Yingfei.
 
-Gao, Jianbo, Matthew Jockers, John Laudun, Timothy Tangherlini. 2016. A multiscale theory for the dynamical evolution of sentiment in novels. _International Conference on Behavioral, Economic and Socio-cultural Computing_ (BESC). DOI: 10.1109/BESC.2016.7804470.
+Gao, Jianbo, Matthew Jockers, John Laudun, Timothy Tangherlini. 2016. A multiscale theory for the dynamical evolution of sentiment in novels. _International Conference on Behavioral, Economic and Socio-cultural Computing_ (BESC). DOI: 10.1109/BESC.2016.7804470. [PDF](./pdfs/Gao_et_al_2016.pdf).
 
 Laudun, John. 2015. Text Statistics with Python. _Programming Historian_ [URL](http://programminghistorian.org/lessons/basic-text-stats-with-python/).
 
@@ -140,7 +142,7 @@ Laudun, John. 1996. Folkways. In _American Folklore: An Encyclopedia_, 295–298
 Laudun, John. 1990. The Poetics of Virtual Space: Designing a Contiguous Architecture for Hypertexts. In _Multiple Perspectives: Courseware Development Using Hypercard_. Syracuse, NY: Syracuse University Writing Program.
 
 
-### Miscellaneous (Essays, Television Production, CD)
+### Miscellaneous (Essays, Television, CD)
 
 2013\. Dangerous Games. _Chronicle of Higher Education_ (October 1).
 

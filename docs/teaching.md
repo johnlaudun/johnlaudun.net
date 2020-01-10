@@ -1,4 +1,6 @@
-# Teaching Statement
+---
+title: Teaching Statement
+---
 
 One of my goals when I teach folklore studies is to undermine the divide that students seem to think exists between the humanities and the sciences. It helps that the study of vernacular discourse in general, and its traditional forms (i.e., folklore) in particular, has long been pushed to one edge of the divide with literature and the arts occupying the center. Across the divide lies linguistics and those facets of the human sciences that address the individual and the particular. Introducing a focus on data and on step-by-step forms of analysis enables the kind of grounding in scientific and scholarly methods that students not only need but makes it possible for them to participate in ways they have not imagined.
 

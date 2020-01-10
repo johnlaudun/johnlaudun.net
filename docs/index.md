@@ -6,7 +6,7 @@ My work in cultural analytics / folklore studies is focused on understanding the
 
 While I began this work in folklore studies, I have over the past few years sought to expand the scope of my engagement in order to find those areas of overlap that exist between the humanities, the social sciences, and data and information science in the belief that there is not only strength in diverse perspectives and collaborations but also real opportunity to find tractable insights into larger questions and problems facing the world in which we live and work.
 
-In addition to the usual places to publish (and which are indexed, somewhat, on [ORCID][] and [Publons][]), I maintain a number of repositories on [GitHub][], including the current collaboration with Katherine M. Kinnaird of Smith College on TED Talks whose current status can be glimpsed by anyone curious.
+In addition to the usual places to publish, indexed in the [vita][], I maintain a number of repositories on [GitHub][], including the current collaboration with Katherine M. Kinnaird of Smith College on TED Talks, whose current state can be glimpsed by anyone curious.
 
 My teaching focuses as much as it can with students engaging data/materials they collect, either from conversations they initiate in face-to-face interactions or through curating online assets, in the belief that it is only in doing the work for themselves, facing the problems scholars and scientists face at various stages of a project, can they not only learn the fundamentals of scholarship and science but also begin to have an appreciation for the larger processes at work in their environment each and every day. Student-driven projects include treatments of women's narrative traditions in Cajun country, rH+ mythologies among alt-right groups, African American ghost legends, Youtube apologies and their attendant folk criticism, and faux reviews of sex toys on Amazon and on podcasts among many other topics. (If you want to see what my students see, then here are my [teaching materials][] -- also built using MkDocs.)
 
@@ -18,9 +18,8 @@ I have been a faculty member at the University of Louisiana at Lafayette since 1
 
 If you want to contact me, see the [about][] page.
 
+[vita]: http://johnlaudun.net/vita/
 [GitHub]: https://github.com/johnlaudun/
-[Publons]: https://publons.com/researcher/1741597/john-laudun/
-[ORCID]: https://orcid.org/0000-0002-7555-7562
 [teaching materials]: https://johnlaudun.github.io/teaching/
 [weblog]: http://johnlaudun.org
 [append]: http://johnlaudun.org/20170928-append-python-list-using-list-comprehension/

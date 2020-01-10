@@ -10,7 +10,7 @@ nav:
 
 theme:
     name: null
-    custom_dir: 'jillion/'
+    custom_dir: 'julienne/'
 
 markdown_extensions:
     - smarty
