@@ -445,11 +445,11 @@ a:hover tt, a:hover code {
 
 
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     #text {
         width: 100%;
     }
-}
+} */
 
 
 @media print {
@@ -478,10 +478,14 @@ a:hover tt, a:hover code {
 }
 
   @page {
-      margin-left: 1.25in;
-      margin-right: 1.25in;
+      margin-left: 18pt;
+      margin-right: 18pt;
       margin-top: 1in;
       margin-bottom: 0.5in;
+  }
+
+  @page :first {
+
   }
 
   /* @page :footer {
@@ -502,6 +506,21 @@ a:hover tt, a:hover code {
 content: " (" attr(href) ")";
 font-size: 80%;
 }
+
+a[href^="http"]:not([href*="example.com"]):after {
+  content: " (" attr(href) ")";
+}
+
+h1, h2, h3 {
+  break-after: avoid-page;
+}
+
+p {
+  orphans: 2;
+  widows: 2;
+}
+
+
 
 }
 
