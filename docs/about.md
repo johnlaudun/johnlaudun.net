@@ -15,8 +15,8 @@ John Laudun is Professor of English at the University of Louisiana, where his re
 
 Other places to find me:
 
-[Blog](http://johnlaudun.org)  
-[Teaching](https://johnlaudun.github.io/teaching)  
+[Blog](http://johnlaudun.org/)  
+[Teaching](https://textalytics.net/)  
 [Twitter](https://twitter.com/johnlaudun/)  
 [GitHub](https://github.com/johnlaudun/)  
 
