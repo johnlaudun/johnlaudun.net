@@ -8,7 +8,7 @@ While I began this work in folklore studies, I have over the past few years soug
 
 In addition to the usual places to publish, indexed in the [vita][], I maintain a number of repositories on [GitHub][], including the current collaboration with Katherine M. Kinnaird of Smith College on TED Talks, whose current state can be glimpsed by anyone curious.
 
-My teaching focuses as much as it can with students engaging data/materials they collect, either from conversations they initiate in face-to-face interactions or through curating online assets, in the belief that it is only in doing the work for themselves, facing the problems scholars and scientists face at various stages of a project, can they not only learn the fundamentals of scholarship and science but also begin to have an appreciation for the larger processes at work in their environment each and every day. Student-driven projects include treatments of women's narrative traditions in Cajun country, rH+ mythologies among alt-right groups, African American ghost legends, Youtube apologies and their attendant folk criticism, and faux reviews of sex toys on Amazon and on podcasts among many other topics. (If you want to see what my students see, then go to my teaching site [Textalytics.net][] -- also built using MkDocs. I've also designed some [courses](courses.md) I would like to teach, if the opportunity presented itself.)
+My teaching focuses as much as it can with students engaging data/materials they collect, either from conversations they initiate in face-to-face interactions or through curating online assets, in the belief that it is only in doing the work for themselves, facing the problems scholars and scientists face at various stages of a project, can they not only learn the fundamentals of scholarship and science but also begin to have an appreciation for the larger processes at work in their environment each and every day. Student-driven projects include treatments of women's narrative traditions in Cajun country, rH+ mythologies among alt-right groups, African American ghost legends, Youtube apologies and their attendant folk criticism, and faux reviews of sex toys on Amazon and on podcasts among many other topics. (If you want to see what my students see, then go to my teaching site [Textalytics.net][] -- also built using MkDocs. I've also sketched out some [courses][] I would like to teach, if the opportunity presented itself.)
 
 I have enjoyed a number of experiences that have made me the scholar I am today, including a special conference organized on the Council for European Philosophy on the oeuvre of Claude Lévi-Strauss, an NEH seminar on Network Studies in the Humanities, a long program by UCLA's Institute for Pure and Applied Mathematics on cultural analytics, as well as several weeks at the EVIA Digital Archive to deposit materials from my work on Cajun Mardi Gras and the stories of a Creole woman.
 
@@ -21,6 +21,7 @@ If you want to contact me, see the [about][] page.
 [vita]: http://johnlaudun.net/vita/
 [GitHub]: https://github.com/johnlaudun/
 [Textalytics.net]: https://textalytics.net/
+[courses]: https://textalytics.net/#course-sketches
 [weblog]: http://johnlaudun.org
 [append]: http://johnlaudun.org/20170928-append-python-list-using-list-comprehension/
 [about]: about.md

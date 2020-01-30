@@ -114,7 +114,7 @@ Laudun, John and Jonathan Goodwin. 2013. Computing Folklore Studies: Mapping ove
 
 Laudun, John. 2012. “Talking Shit” in Rayne: How Aesthetic Features Reveal Ethical Structures. _Journal of American Folklore_ 125(497):304–326. DOI: 10.5406/jamerfolk.125.497.0304. [JSTOR](https://www.jstor.org/stable/10.5406/jamerfolk.125.497.0304).
 
-Laudun, John. 2011. A Constellation of Stars: The Study of Creativity on a Human Scale, or How a Bunch of Cajun and German Farmers and Fabricators in Louisiana Invented a Traditional Amphibious Boat. In _The Individual in Tradition_. Eds. Ray Cashman, Tom Mould, Pravina Shukla. Bloomington, IN: Indiana University Press. [PDF](./pdfs/Laudun_2011.pdf)
+Laudun, John. 2011. A Constellation of Stars: The Study of Creativity on a Human Scale, or How a Bunch of Cajun and German Farmers and Fabricators in Louisiana Invented a Traditional Amphibious Boat. In _The Individual in Tradition_. Eds. Ray Cashman, Tom Mould, Pravina Shukla. Bloomington, IN: Indiana University Press. [PDF](https://github.com/johnlaudun/portfolio/blob/master/publications/Laudun_2011.pdf)
 
 Laudun, John. 2011. The Technological Landscape. _Technoculture: An Online Journal of Technology in Society_. [URL](http://tcjournal.org/drupal/vol1/laudun).
 
@@ -197,7 +197,7 @@ Bale, Rachel. 2013. Worker Suffocations Persist as Grain Storage Soars. Rachel B
 
 2017\. The Clown Legend Cascade of 2016. International Society for Contemporary Legend Research (Lafayette, LA).
 
-2017\. Repairing Knowledge: A Case Study in Natural Knowledge Construction. CONSTRUIT (University of Warwick, Coventry, UK). [text](texts/construit-2017.md).
+2017\. Repairing Knowledge: A Case Study in Natural Knowledge Construction. CONSTRUIT (University of Warwick, Coventry, UK). [PDF](https://github.com/johnlaudun/portfolio/blob/master/presentations/Laudun-2017-Construit.pdf). <!-- [text](texts/construit-2017.md). -->
 
 Kinnaird, Katherine and John Laudun. 2016. Ten Years of TED Talks: Understanding the Dimensions of a Cultural Phenomenon. International Conference on Social Informatics (SOCINFO).
 
